@@ -1,4 +1,5 @@
 import { A11yButtons } from "./buttons";
+import './styles/style.css';
 
 const a11y = new A11yButtons();
 

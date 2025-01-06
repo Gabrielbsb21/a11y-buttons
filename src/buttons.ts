@@ -1,9 +1,9 @@
 export class A11yButtons {
-  private constrastEnabled = false;
+  private contrastEnabled = false;
 
   toggleContrast() {
-    this.constrastEnabled = !this.constrastEnabled;
-    document.body.classList.toggle('high-contrast', this.constrastEnabled);
+    this.contrastEnabled = !this.contrastEnabled;
+    document.body.classList.toggle('high-contrast', this.contrastEnabled);
   }
 
   increaseFontSize(): void {
