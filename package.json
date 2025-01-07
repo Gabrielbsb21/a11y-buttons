@@ -1,6 +1,6 @@
 {
   "name": "a11y-buttons",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "description": "a11y-buttons é uma biblioteca simples e leve que adiciona botões de acessibilidade à sua interface web. Com ela, você pode facilmente implementar funcionalidades essenciais como ajuste de contraste e modificação do tamanho da fonte, proporcionando uma experiência mais inclusiva para todos os usuários.",
   "main": "index.js",
   "scripts": {
