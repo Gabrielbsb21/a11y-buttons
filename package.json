@@ -1,25 +1,19 @@
 {
   "name": "a11y-buttons",
-  "version": "0.1.0-beta.2",
+  "version": "1.0.0",
   "description": "a11y-buttons é uma biblioteca simples e leve que adiciona botões de acessibilidade à sua interface web. Com ela, você pode facilmente implementar funcionalidades essenciais como ajuste de contraste e modificação do tamanho da fonte, proporcionando uma experiência mais inclusiva para todos os usuários.",
-  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "test": "vitest",
-    "build": "tsup"
+    "dev:react": "npm run dev --workspace=@a11y-buttons/react",
+    "dev:vue": "npm run dev --workspace=@a11y-buttons/vue",
+    "build": "npm run build --workspace=@a11y-buttons/core && npm run build --workspace=@a11y-buttons/react && npm run build --workspace=@a11y-buttons/vue"
   },
   "keywords": [],
-  "author": "Gabriel Teixeira",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@eslint/js": "^9.17.0",
-    "@types/node": "^22.10.3",
-    "eslint": "^9.17.0",
-    "globals": "^15.14.0",
-    "jsdom": "^25.0.1",
-    "prettier": "3.4.2",
-    "tsup": "^8.3.5",
-    "typescript": "^5.7.2",
-    "typescript-eslint": "^8.19.0",
-    "vitest": "^2.1.8"
+    "typescript": "^5.7.3"
   }
 }

@@ -29,30 +29,3 @@
     outline: 3px solid var(--contrast-focus);
     outline-offset: 4px;
 }
-
-.high-contrast table {
-    border-collapse: collapse;
-    background-color: var(--contrast-bg);
-    color: var(--contrast-text);
-}
-
-.high-contrast th,
-.high-contrast td {
-    border: 1px solid var(--contrast-border);
-    padding: 8px;
-}
-
-.high-contrast input,
-.high-contrast textarea,
-.high-contrast select {
-    background-color: var(--contrast-bg);
-    color: var(--contrast-text);
-    border: 1px solid var(--contrast-border);
-    padding: 8px;
-    font-size: 16px;
-}
-
-.high-contrast input::placeholder,
-.high-contrast textarea::placeholder {
-    color: var(--contrast-border);
-}

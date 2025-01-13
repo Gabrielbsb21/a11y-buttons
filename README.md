@@ -25,7 +25,6 @@ Este projeto foi desenvolvido utilizando:
 
 Ainda irei complementar
 
-
     
 ## Contribuindo
 
